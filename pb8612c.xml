@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>2014314</id>
+      <name>PB8612C</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-02-10 20:44:33.004303+00:00</created>
+      <updated>2026-02-10 21:03:57.095730+00:00</updated>
+      <subset>Validation</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3604352</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/tasks/2014314/dataset/export/api/jobs/3604257</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>mariana56</username>
+        <email>analistaoperaciones.mosaico@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>cristal</name>
+          <color>#aaf0d1</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>color</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>ab_aguamarina</default_value>
+              <values>ab_aguamarina
+ab_amatista
+ab_cristal
+ab_peridot
+ab_rose
+ab_zafiro
+aguamarina
+amatista
+aurum
+black_diamond
+blue_zircon
+citrine
+cristal
+esmeralda
+fern_green
+fuschia
+hyacinth
+jet
+jet_hematita
+jonquil
+labrador
+light_amatista
+light_colorado_topaz
+light_peach
+light_rose
+light_siam
+ab_light_siam
+light_zafiro
+montana
+olivo
+opal_blue_zircone
+opal_green
+opal_purple
+opal_rose
+opal_white
+peridot
+rose
+siam
+smoked_topaz
+tanzanita
+topaz
+violet
+zafiro</values>
+            </attribute>
+            <attribute>
+              <name>tamaño</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>pp08</default_value>
+              <values>pp08
+pp10
+pp12
+pp14
+pp16
+pp20
+pp24</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>balin</name>
+          <color>#1dc016</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>color</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>plata</default_value>
+              <values>plata
+dorado</values>
+            </attribute>
+            <attribute>
+              <name>tamaño</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>1mm</default_value>
+              <values>1mm</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>dicroico</name>
+          <color>#33ddff</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>tamaño</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>3mm</default_value>
+              <values>3mm
+3.5mm
+4mm
+6mm
+8mm</values>
+            </attribute>
+            <attribute>
+              <name>color</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>gmb_morado</default_value>
+              <values>gmb_morado
+rsb_azul
+rsb/gm_subl</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>microperla</name>
+          <color>#28b690</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>color</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>amarillo</default_value>
+              <values>amarillo
+rosa
+morado
+azul_rey
+rojo
+turqueza
+turqueza_metalico
+teal
+mauva
+lilac
+azul_purpura
+orquida
+purpura
+salmon
+gris
+azul_agua
+verde_jade
+otro</values>
+            </attribute>
+            <attribute>
+              <name>tamaño</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>pp01</default_value>
+              <values>pp01</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-02-10 21:04:23.438463+00:00</dumped>
+  </meta>
+  <image id="0" name="PB8612C.jpg" width="884" height="1024">
+    <points label="cristal" source="manual" occluded="0" points="780.01,97.97;789.50,100.12;798.26,106.20;802.73,114.07;804.70,122.66;801.84,133.03;794.15,140.37;785.56,145.74;774.47,146.99;762.48,145.20;754.43,138.76;749.78,130.17;750.50,121.23;753.36,111.93;759.62,105.66;767.85,100.48;702.25,180.92;710.93,179.99;720.98,182.95;731.05,192.09;733.54,199.98;731.21,208.49;724.86,217.79;715.56,223.98;706.74,228.33;696.20,227.70;687.69,223.52;681.34,218.10;679.32,209.12;678.85,199.83;684.59,191.16;693.41,184.95;640.19,262.82;649.17,267.15;657.38,274.59;660.94,283.57;659.39,294.11;653.50,302.32;647.01,308.04;637.40,313.00;625.00,310.84;616.79,306.34;610.14,299.99;608.12,290.39;608.28,280.01;615.26,270.57;625.47,264.22;578.21,352.36;587.04,356.63;593.20,363.73;597.22,374.04;597.35,385.54;594.00,394.65;586.51,401.75;578.08,405.36;567.90,405.90;556.26,401.87;548.49,393.72;544.07,382.87;544.88,372.30;549.69,363.05;557.06,355.02;566.70,349.80;507.94,439.42;516.51,446.79;523.59,454.56;524.27,467.01;521.73,477.31;514.90,485.88;507.40,491.23;496.15,493.50;486.51,490.69;478.35,484.81;472.32,475.84;470.44,463.79;472.73,452.14;479.55,443.18;488.12,438.08;498.03,435.42;429.85,522.95;438.65,525.15;446.52,530.93;451.96,539.03;453.52,551.57;451.03,560.28;445.02,569.21;436.74,575.00;426.15,577.71;414.95,578.74;407.49,573.97;401.48,565.06;398.78,555.31;398.37,545.77;401.07,536.85;407.70,529.19;418.49,522.75;349.21,606.76;359.65,607.44;369.03,611.71;375.72,620.01;379.60,629.66;378.13,640.50;372.52,650.68;363.54,658.03;352.30,660.71;340.91,659.78;331.41,654.02;326.33,644.38;322.98,635.15;324.18,624.56;329.40,616.13;338.24,609.44;283.23,692.61;292.87,694.88;301.18,700.77;307.33,712.02;308.13,723.79;302.11,732.89;294.34,741.34;284.99,746.15;274.66,747.35;264.36,742.54;257.67,735.04;252.32,725.67;252.86,714.29;256.74,704.52;263.43,698.22;272.39,693.54;213.12,781.03;221.34,785.43;229.21,792.73;234.75,803.14;234.07,814.25;229.90,824.54;222.50,831.71;213.23,836.45;204.11,838.78;193.11,835.42;186.40,829.41;180.15,820.60;179.22,809.16;179.46,799.55;184.77,792.27;193.34,785.56;203.29,781.50;139.21,870.68;149.28,874.15;154.25,883.16;156.56,892.66;155.41,903.75;149.39,913.02;141.17,919.62;132.61,923.09;121.51,922.86;127.40,869.05;116.99,872.64;107.17,878.08;103.70,888.37;101.84,898.91;104.38,909.08;110.98,916.37" z_order="0">
+      <attribute name="color">aguamarina</attribute>
+      <attribute name="tamaño">pp08</attribute>
+    </points>
+    <points label="balin" source="manual" occluded="0" points="782.63,105.51;789.22,108.63;794.55,113.38;795.93,119.97;794.78,126.57;791.77,132.58;785.87,137.33;779.27,138.49;772.10,138.14;765.27,136.17;761.69,131.66;759.37,125.30;759.60,118.47;763.42,112.80;768.28,108.29;775.22,105.86;702.39,187.87;709.60,186.77;716.90,188.17;721.19,192.67;724.79,199.07;723.60,205.07;720.80,210.27;715.59,215.17;709.19,218.17;702.39,219.37;696.39,216.87;691.29,212.96;688.49,207.97;688.39,201.27;691.59,195.06;696.70,190.56;637.49,269.50;643.89,271.69;648.49,275.80;651.59,281.40;652.20,287.80;648.99,293.70;644.90,299.00;638.29,301.90;631.39,302.60;625.19,300.70;620.09,296.50;616.99,291.01;615.80,284.01;618.49,277.40;623.59,272.30;630.29,269.60;571.01,360.27;577.90,360.87;583.61,365.17;587.90,370.67;589.70,377.67;587.90,387.47;582.90,392.96;576.90,396.77;566.60,397.37;560.10,393.87;555.20,386.67;553.70,379.97;554.70,372.07;558.80,365.87;564.01,362.37;497.17,446.98;503.85,446.31;508.68,450.86;513.77,455.69;516.18,462.78;516.18,469.60;512.83,475.36;508.94,481.38;502.65,483.40;496.09,484.06;488.33,481.52;482.84,476.29;479.76,468.53;480.70,459.56;484.58,453.00;489.67,449.13;419.12,533.24;425.72,531.39;433.36,533.01;439.14,537.06;443.77,542.73;444.69,550.37;444.12,557.19;440.07,563.09;435.21,567.03;427.92,569.34;420.40,568.65;414.84,565.41;410.10,560.43;408.48,552.22;409.75,544.58;413.34,537.99;352.51,614.82;359.62,616.42;366.02,620.62;369.81,626.93;371.12,633.52;369.61,640.52;365.52,646.23;359.12,651.02;352.92,652.32;346.61,651.02;340.11,647.42;335.11,641.52;333.32,633.12;334.81,625.92;339.01,620.12;344.82,616.72;279.26,700.90;288.26,702.49;293.66,706.19;298.56,712.29;300.66,719.10;297.96,726.40;294.26,732.00;287.86,736.69;281.16,738.59;273.26,737.90;267.46,734.39;262.55,728.79;261.06,722.20;261.86,714.59;266.26,707.10;271.06,702.69;212.02,792.66;219.22,795.96;224.01,802.76;226.22,809.16;225.22,816.76;222.12,822.66;215.91,828.35;208.22,830.76;200.62,830.26;194.02,826.36;189.61,820.25;186.92,813.16;187.62,806.16;191.72,799.25;197.52,795.26;204.92,792.36;132.52,878.12;140.12,880.32;145.31,885.12;147.92,890.72;148.22,899.12;145.51,906.42;140.01,910.71;133.61,913.92;127.01,914.11;119.92,911.22;113.71,906.42;111.32,899.81;111.21,893.41;113.52,886.71;118.52,881.91;124.81,878.62" z_order="0">
+      <attribute name="color">plata</attribute>
+      <attribute name="tamaño">1mm</attribute>
+    </points>
+    <points label="dicroico" source="manual" occluded="0" points="775.91,120.91;705.24,202.81;634.61,285.77;572.43,378.50;497.47,465.96;425.58,551.17;352.19,634.10;279.60,721.46;206.69,811.52;129.42,896.64" z_order="0">
+      <attribute name="tamaño">4mm</attribute>
+      <attribute name="color">rsb_azul</attribute>
+    </points>
+  </image>
+</annotations>
